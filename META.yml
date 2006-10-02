@@ -1,6 +1,6 @@
 ---
 name: Alien-scriptaculous
-version: 0.01
+version: 1.000
 author:
   - "Graham TerMarsch (cpan@howlingfrog.com)"
 abstract: installing and finding script.aculo.us
@@ -14,6 +14,6 @@ meta-spec:
 provides:
   Alien::scriptaculous:
     file: lib/Alien/scriptaculous.pm
-    version: 0.01
+    version: 1.000
 resources:
   license: http://dev.perl.org/licenses/
