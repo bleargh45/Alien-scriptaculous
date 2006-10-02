@@ -26,7 +26,9 @@ sub path {
 # Installs the script.aculo.us Javascript libraries into the given '$destdir'.
 sub install {
     my ($class, $destdir) = @_;
-    mkpath( $destdir ) || croak "can't create '$destdir'; $!";
+    if (!-d $destdir) {
+        mkpath( $destdir ) || croak "can't create '$destdir'; $!";
+    }
 
     my $path = $class->path();
     my @jsfiles = grep { -f $_ } glob "$path/*/*.js";
