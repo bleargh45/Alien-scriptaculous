@@ -5,7 +5,7 @@ author:
   - "Graham TerMarsch (cpan@howlingfrog.com)"
 abstract: installing and finding script.aculo.us
 license: perl
-requires:
+build_requires:
   Archive::Tar: 0
   Test::Exception: 0
 generated_by: Module::Build version 0.2805
