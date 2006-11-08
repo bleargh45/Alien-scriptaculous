@@ -9,7 +9,7 @@ use File::Path qw(mkpath);
 
 # Version number
 our $VERSION = '1.000';
-our $SCRIPTACULOUS_VERSION = '1.6.4';
+our $SCRIPTACULOUS_VERSION = '1.6.5';
 
 # Returns the script.aculo.us version number.
 sub version {
