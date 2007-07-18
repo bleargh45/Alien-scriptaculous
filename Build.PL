@@ -3,13 +3,11 @@ use warnings;
 use lib qw(inc lib);
 use MY::Build;
 
-my $build = MY::Build->new
-    (
-        'module_name'   => 'Alien::scriptaculous',
-        'license'       => 'perl',
-        'dist_author'   => 'Graham TerMarsch (cpan@howlingfrog.com)',
-        'build_requires'=> { 'Archive::Tar'     => 0,
+MY::Build->new(
+    'module_name'       => 'Alien::scriptaculous',
+    'license'           => 'perl',
+    'dist_author'       => 'Graham TerMarsch (cpan@howlingfrog.com)',
+    'build_requires'    => { 'Archive::Tar'     => 0,
                              'Test::Exception'  => 0,
                            },
-    );
-$build->create_build_script();
+    )->create_build_script();
