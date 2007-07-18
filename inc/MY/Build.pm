@@ -22,7 +22,7 @@ sub scriptaculous_dir {
 }
 
 sub scriptaculous_target_dir {
-    return 'blib/lib/Alien/scriptaculous';
+    return 'blib/lib/Alien/scriptaculous/';
 }
 
 sub scriptaculous_url {
