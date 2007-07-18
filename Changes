@@ -1,5 +1,8 @@
 Revision history for Perl extension Alien::scriptaculous.
 
+???
+    - removed un-necessary "use" statements and imports from MY::Build
+
 1.7.0   Fri Jun 29 11:24 PDT 2007
     - Updated to script.aculo.us 1.7.0
 
