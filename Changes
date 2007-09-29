@@ -1,6 +1,8 @@
 Revision history for Perl extension Alien::scriptaculous.
 
-1.7.1_3 Tue Jul 17 20:52 PDT 2007
+1.7.1.1_3   Fri Sep 28 17:23 PDT 2007
+    - added POD docs to Alien::scriptaculous
+    - added "--quiet" command line argument to "scriptaculous-install"
     - Updated to script.aculo.us 1.7.1_beta3
     - removed un-necessary "use" statements and imports from MY::Build
 
