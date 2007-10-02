@@ -7,6 +7,7 @@ MY::Build->new(
     'module_name'       => 'Alien::scriptaculous',
     'license'           => 'perl',
     'dist_author'       => 'Graham TerMarsch (cpan@howlingfrog.com)',
+    'create_makefile_pl'=> 'passthrough',
     'requires'          => {
         'perl'                  => '5.6.0',
         'Alien::Prototype'      => '1.5.1.2',
