@@ -3,7 +3,6 @@ package MY::Build;
 use strict;
 use warnings;
 use base qw(Module::Build);
-use Archive::Tar;
 
 sub ACTION_code {
     my $self = shift;
@@ -43,6 +42,7 @@ sub install_scriptaculous {
     my $self = shift;
     return if (-d $self->scriptaculous_target_dir());
 
+    require Archive::Tar;
     print "Installing script.aculo.us...\n";
     my $tar   = Archive::Tar->new( $self->scriptaculous_archive(), 1 );
     my $src   = $self->scriptaculous_dir();
