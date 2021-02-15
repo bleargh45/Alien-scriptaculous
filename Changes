@@ -1,5 +1,8 @@
 Revision history for Perl extension Alien::scriptaculous.
 
+1.8.0.3     ????
+    - DEPRECATED; DO NOT USE
+
 1.8.0.2     Fri Apr 23 22:24 PDT 2010
     - Switch to Git
 

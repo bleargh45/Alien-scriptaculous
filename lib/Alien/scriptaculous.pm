@@ -101,7 +101,7 @@ sub install {
 
 =head1 NAME
 
-Alien::scriptaculous - installing and finding script.aculo.us
+Alien::scriptaculous - (DEPRECATED) installing and finding script.aculo.us
 
 =head1 SYNOPSIS
 
@@ -113,6 +113,8 @@ Alien::scriptaculous - installing and finding script.aculo.us
   Alien::scriptaculous->install( $my_destination_directory );
 
 =head1 DESCRIPTION
+
+B<DEPRECATED> - DO NOT USE
 
 Please see L<Alien> for the manifesto of the Alien namespace.
 
