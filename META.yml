@@ -17,13 +17,13 @@ name: Alien-scriptaculous
 provides:
   Alien::scriptaculous:
     file: lib/Alien/scriptaculous.pm
-    version: v1.8.0.2
+    version: v1.8.0.3
 requires:
   Alien::Prototype: v1.6.0
   perl: v5.6.0
 resources:
   license: http://dev.perl.org/licenses/
-version: v1.8.0.2
+version: v1.8.0.3
 x_bugtracker:
   web: https://github.com/bleargh45/Alien-scriptaculous/issues
 x_deprecated: 1

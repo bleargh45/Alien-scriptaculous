@@ -35,7 +35,7 @@
    "provides" : {
       "Alien::scriptaculous" : {
          "file" : "lib/Alien/scriptaculous.pm",
-         "version" : "v1.8.0.2"
+         "version" : "v1.8.0.3"
       }
    },
    "release_status" : "stable",
@@ -44,7 +44,7 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v1.8.0.2",
+   "version" : "v1.8.0.3",
    "x_bugtracker" : {
       "web" : "https://github.com/bleargh45/Alien-scriptaculous/issues"
    },
